@@ -144,3 +144,8 @@ git  merge dev #dev的代码合并到当前分支
 git status
 git push origin master
 ```
+##### Git解决本地文件忽略不起作用
+```
+git rm -r --cached target/ 
+```
+
